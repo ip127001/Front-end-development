@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://web.whatsapp.com/ -->
+<html class="js cssanimations csstransitions webp webp-alpha webp-animation webp-lossless wf-roboto-n4-active wf-opensans-n4-active wf-opensans-n6-active wf-roboto-n3-active wf-roboto-n5-active wf-active" dir="ltr" manifest="/404.appcache"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>WhatsApp</title>
+<meta name="viewport" content="width=device-width">
+<meta name="google" content="notranslate">
+<meta name="format-detection" content="telephone=no">
+
+<meta name="description" content="Quickly send and receive WhatsApp messages right from your computer.">
+<meta name="og:description" content="Quickly send and receive WhatsApp messages right from your computer.">
+<meta name="og:url" content="https://web.whatsapp.com/">
+<meta name="og:title" content="WhatsApp Web">
+<meta name="og:image" content="https://www.whatsapp.com/img/whatsapp-promo.png">
+
+<link id="favicon" rel="shortcut icon" href="blob:https://web.whatsapp.com/8cecafde-e916-41c7-ac09-3293f46eb057" type="image/png">
+<link rel="apple-touch-icon" sizes="194x194" href="https://web.whatsapp.com/apple-touch-icon.png" type="image/png">
+
+<link rel="stylesheet" href="./img1_files/sprite_aaa6f707db97264a007b75466897c079.css">
+<link rel="stylesheet" id="style" href="./img1_files/style_56c2541f057e23661d28d70ea6ae975a.css">
+
+<style>
+html, body, #app {
+height: 100%;
+width: 100%;
+overflow: hidden;
+padding: 0;
+margin: 0;
+}
+
+#app {
+position: absolute;
+top: 0;
+left: 0;
+}
+
+#startup, #initial_startup {
+width: 100%;
+height: 100%;
+position: fixed;
+background-color: #f2f2f2;
+
+-moz-user-select: none;
+-webkit-user-select: none;
+
+display: flex;
+align-items: center;
+justify-content: center;
+display: -webkit-box;
+display: -webkit-flex;
+-webkit-align-items: center;
+-webkit-justify-content: center;
+flex-direction: column;
+-webkit-flex-direction: column;
+}
+
+.spinner-container {
+-webkit-animation: rotate 2s linear infinite;
+animation: rotate 2s linear infinite;
+z-index: 2;
+}
+
+.spinner-container .path {
+stroke-dasharray: 1,150; 
+stroke-dashoffset: 0;
+stroke: rgba(27, 154, 89, 0.7);
+stroke-linecap: round;
+-webkit-animation: dash 1.5s ease-in-out infinite;
+animation: dash 1.5s ease-in-out infinite;
+}
+
+#startup .spinner-container .path,
+#initial_startup .spinner-container .path {
+stroke: #acb9bf;
+}
+
+@keyframes rotate {
+100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes rotate{
+100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes dash {
+0% {
+stroke-dasharray: 1,150;  
+stroke-dashoffset: 0;
+}
+50% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -35;   
+}
+100% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -124;  
+}
+}
+@-webkit-keyframes dash {
+0% {
+stroke-dasharray: 1,150;  
+stroke-dashoffset: 0;
+}
+50% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -35;   
+}
+100% {
+stroke-dasharray: 90,150; 
+stroke-dashoffset: -124;  
+}
+}
+
+.progress-container {
+width: 360px;
+position: fixed;
+padding-top: 120px;
+top: 50%;
+left: 50%;
+margin-left: -180px;
+}
+
+progress {
+-webkit-appearance: none;
+appearance: none;
+width: 100%;
+height: 3px;
+border: none;
+margin: 0;
+color: #02d1a4;
+background-color: #e0e4e5;
+}
+
+progress[value]::-webkit-progress-bar {
+background-color: #e0e4e5;
+}
+
+progress[value]::-webkit-progress-value {
+background-color: #02d1a4;
+}
+
+progress[value]::-moz-progress-bar {
+background-color: #02d1a4;
+}
+</style>
+<script id="progress_script_/vendor1_2c8866dc3947b1bb381d.js" type="text/javascript" charset="utf-8" async="" src="./img1_files/vendor1_2c8866dc3947b1bb381d.js.download"></script><script id="progress_script_/vendor2_9ba8044a287f1c5363e9.js" type="text/javascript" charset="utf-8" async="" src="./img1_files/vendor2_9ba8044a287f1c5363e9.js.download"></script><script id="progress_script_/app_06757d1edcdfb8871aaf.js" type="text/javascript" charset="utf-8" async="" src="./img1_files/app_06757d1edcdfb8871aaf.js.download"></script><link rel="stylesheet" href="./img1_files/css" media="all"><script id="progress_script_/main_28c78857079ae35ebef2.js" type="text/javascript" charset="utf-8" async="" src="./img1_files/main_28c78857079ae35ebef2.js.download"></script><style id="asset-style" type="text/css"></style><script type="text/javascript" charset="utf-8" async="" src="./img1_files/main_28c78857079ae35ebef2.js.download"></script></head>
+<body>
+<div id="app"><div data-reactroot="" class="app-wrapper app-wrapper-web app-wrapper-main"><span></span><span></span><span></span><span></span><span></span><div tabindex="-1" class="app two"><!-- react-empty: 12 --><!-- react-empty: 13 --><span></span><div class="drawer-manager"><span class="pane pane-one"><div tabindex="-1" class="" style="height: 100%; transform: translateX(0px);"><div class="drawer drawer-profile"><header class="drawer-header"><div class="pane-header drawer-title" style="background-color: transparent; padding: 0px; opacity: 1; transform: translateX(0px);"><div class="drawer-title-action" style="text-align: initial; width: 54px;"><span class="icon btn-close-drawer icon-back-light"></span></div><span class="drawer-title-body" style="font-weight: 500; font-size: 19px; line-height: normal;">Profile</span></div></header><div class="drawer-body"><div class="drawer-section drawer-scale drawer-section-photo"><div class="avatar-picker"><div class="avatar avatar-l draggable-container icon-user-default" dir="ltr"><div class="avatar-body"><div class="object-fit object-fit-cover"><div style="width: 200px; height: 200px; top: 0px; left: 0px; position: absolute;"><img src="./img1_files/pp" draggable="false" style="height: 100%; width: 100%;"></div></div></div><span></span></div><input type="file" accept="image/gif,image/jpeg,image/jpg,image/png" style="display: none;"></div></div><div class="animate-enter1 well-input drawer-section well"><div class="row drawer-section-title"><div class="row-body"><div class="row-main ellipsify">Your Name</div></div></div><div class="drawer-section-body"><div tabindex="-1" class="text-input no-placeholder"><span class="label-text label-text-float"></span><div class="input-spacer"></div><div class="input-wrapper locked" data-trump-dominateparent="click"><div class="input-emoji"><div dir="auto" contenteditable="false" class="input input-text">Rohit Kumawat</div></div><div class="textinput-controls"><span class="control-button-container"><span class="lock-icon icon icon-pencil" title="Edit"></span></span><span class="control-button-container"></span><div class="control-button-container char-counter"><div class="char-counter"></div></div></div></div></div></div></div><div class="hint animate-enter1 well-transparent">This is not your username or pin. This name will be visible to your WhatsApp contacts.</div><div class="animate-enter1 well-input drawer-section well"><div class="row drawer-section-title"><div class="row-body"><div class="row-main ellipsify">About</div></div></div><div class="drawer-section-body"><div tabindex="-1" class="text-input no-placeholder"><span class="label-text label-text-float"></span><div class="input-spacer"></div><div class="input-wrapper locked" data-trump-dominateparent="click"><div class="input-emoji"><div dir="auto" contenteditable="false" class="input input-text">,*</div></div><div class="textinput-controls"><span class="control-button-container"><span class="lock-icon icon icon-pencil" title="Edit"></span></span><span class="control-button-container"></span><div class="control-button-container char-counter"><div class="char-counter"></div></div></div></div></div></div></div></div></div></div></span><span class="pane pane-two"></span><span class="pane pane-three"></span></div><div id="side" class="chatlist-panel pane pane-one"><header class="pane-header pane-list-header"><div class="pane-list-user"><div class="avatar icon-user-default" style="height: 40px; width: 40px; cursor: pointer;"><div class="avatar-body"><img src="./img1_files/pp(1)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="pane-list-controls"><div class="menu menu-horizontal"><span><div class="menu-item"><button class="icon icon-chat" title="New chat"></button><span></span></div><div class="menu-item"><button class="icon icon-menu" title="Menu"></button><span></span></div></span></div></div></header><div class="butterbar-container"><span></span></div><div tabindex="-1" class="chatlist-panel-search"><div class="pane-subheader pane-list-subheader subheader-search"><button class="icon icon-search-morph"><div class="icon icon-back-blue"></div><div class="icon icon-search"></div></button><span></span><div class="input-placeholder">Search or start new chat</div><label for="input-chatlist-search" class="cont-input-search"><input type="text" class="input input-search" data-tab="2" dir="auto" title="Search or start new chat" value=""></label></div></div><div class="chatlist-panel-body" id="pane-side" data-list-scroll-container="true"><div tabindex="-1" data-tab="3"><div class="infinite-list chatlist infinite-list-animate"><div class="infinite-list-viewport" style="height: 4680px;"><div class="infinite-list-item infinite-list-item-transition" style="z-index: 63; height: 72px; transform: translate3d(0px, 72px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./img1_files/pp(2)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Vishvendra"><!-- react-text: 73 -->Vishvendra<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">10:09 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪ok‬"><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 346 -->ok<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 59; height: 72px; transform: translate3d(0px, 360px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./img1_files/pp(3)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Saurabh Bihar Sim"><!-- react-text: 92 -->Saurabh Bihar Sim<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">yesterday</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Kk‬"><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 321 -->Kk<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 57; height: 72px; transform: translate3d(0px, 504px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-group-default"><div class="avatar-body"><img src="./img1_files/pp(4)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="😝premium Phaduu jokes😍"><img alt="😝" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e1705 c0 emoji"><!-- react-text: 112 -->premium Phaduu jokes<!-- /react-text --><img alt="😍" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e1689 c0 emoji"></span></div><div class="chat-meta"><span class="chat-time">yesterday</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪GIF‬"><span class="chat-status-name" dir="auto"><!-- react-text: 381 -->Shivam<!-- /react-text --></span><span class="chat-status-divider">:</span><span class="icon icon-status icon-status-gif"></span><span class="emojitext ellipsify"><!-- react-text: 385 -->GIF<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 54; height: 72px; transform: translate3d(0px, 720px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./img1_files/pp(5)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Abhishek Sharma"><!-- react-text: 132 -->Abhishek Sharma<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">Wednesday</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Listen to Sign of the Times at http://wynk.in/u/101yPNrZgScOTN on Wynk Music‬"><span class="icon icon-ack icon-status-dblcheck-ack"></span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 361 -->Listen to Sign of the Times at http://wynk.in/u/101yPNrZgScOTN on Wynk Music<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 53; height: 72px; transform: translate3d(0px, 792px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./img1_files/pp(7)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Rajani"><!-- react-text: 170 -->Rajani<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">Tuesday</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪🤣🤣🤣🤣‬"><span class="icon icon-ack icon-status-dblcheck"></span><span class="emojitext ellipsify"><img alt="🤣" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e2021 c0 emoji"><img alt="🤣" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e2021 c0 emoji"><img alt="🤣" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e2021 c0 emoji"><img alt="🤣" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e2021 c0 emoji"></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="first infinite-list-item infinite-list-item-transition" style="z-index: 64; height: 72px; transform: translate3d(0px, 0px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" draggable="false" class="avatar-image"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Mummy"><!-- react-text: 189 -->Mummy<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">10:34 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Ha alu paratha‬"><span class="icon icon-ack icon-status-dblcheck-ack"></span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 367 -->Ha alu paratha<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 56; height: 72px; transform: translate3d(0px, 576px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-group-default"><div class="avatar-body"><img src="./img1_files/pp(8)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="404! Girlfriend ERror!!🤔😳"><!-- react-text: 208 -->404! Girlfriend ERror!!<!-- /react-text --><img alt="🤔" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e1977 c0 emoji"><img alt="😳" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e1727 c0 emoji"></span></div><div class="chat-meta"><span class="chat-time">yesterday</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Photo‬"><span class="chat-status-name" dir="auto"><!-- react-text: 390 -->Abhishek<!-- /react-text --></span><span class="chat-status-divider">:</span><span class="icon icon-status icon-status-image"></span><span class="emojitext ellipsify"><!-- react-text: 394 -->Photo<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 55; height: 72px; transform: translate3d(0px, 648px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-group-default"><div class="avatar-body"><img src="./img1_files/pp(9)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="CSE 🖥💻🙌🏼"><!-- react-text: 229 -->CSE <!-- /react-text --><img alt="🖥" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e1651 c5 emoji"><img alt="💻" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e1436 c5 emoji"><img alt="🙌🏼" draggable="false" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" class="e1798 c8 emoji"></span></div><div class="chat-meta"><span class="chat-time">Friday</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Prize List • 1 page‬"><span class="chat-status-name" dir="auto"><!-- react-text: 372 -->Shantanu<!-- /react-text --></span><span class="chat-status-divider">:</span><span class="icon icon-status icon-status-document"></span><span class="emojitext ellipsify"><!-- react-text: 376 -->Prize List • 1 page<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 60; height: 72px; transform: translate3d(0px, 288px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-group-default"><div class="avatar-body"><img src="./img1_files/pp(10)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Hutiya group"><!-- react-text: 251 -->Hutiya group<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">yesterday</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪http://bit.ly/Summer_Intern‬"><span class="chat-status-name" dir="auto"><!-- react-text: 338 -->Shantanu<!-- /react-text --></span><span class="chat-status-divider">:</span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 341 -->http://bit.ly/Summer_Intern<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 58; height: 72px; transform: translate3d(0px, 432px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./img1_files/pp(11)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Shantanu"><!-- react-text: 270 -->Shantanu<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">yesterday</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Neeche waali class room mei hu‬"><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 326 -->Neeche waali class room mei hu<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 61; height: 72px; transform: translate3d(0px, 216px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-group-default"><div class="avatar-body"><img src="./img1_files/pp(12)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Nit mz 2nd yr"><!-- react-text: 289 -->Nit mz 2nd yr<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">1:23 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Share image‬"><span class="chat-status-name" dir="auto"><!-- react-text: 399 -->Krizzna <!-- /react-text --></span><span class="chat-status-divider">:</span><span class="icon icon-status icon-status-image"></span><span class="emojitext ellipsify" dir="ltr"><!-- react-text: 403 -->Share image<!-- /react-text --></span></div><div class="chat-meta"><span><span class="icon icon-meta icon-muted"></span></span><span></span><span class="context-container"></span></div></div></div></div></div></div><div class="infinite-list-item infinite-list-item-transition" style="z-index: 62; height: 72px; transform: translate3d(0px, 144px, 0px);"><div tabindex="-1" class="chat-drag-cover"><div class="chat"><div class="chat-avatar"><div class="avatar icon-user-default"><div class="avatar-body"><img src="./img1_files/pp(13)" draggable="false" class="avatar-image is-loaded"></div></div></div><div class="chat-body"><div class="chat-main"><div class="chat-title"><span class="emojitext ellipsify" dir="auto" title="Papa Ji"><!-- react-text: 309 -->Papa Ji<!-- /react-text --></span></div><div class="chat-meta"><span class="chat-time">7:50 AM</span></div></div><div class="chat-secondary"><div class="chat-status" title="‪Photo‬"><span class="icon icon-status icon-status-image"></span><span class="emojitext ellipsify"><!-- react-text: 409 -->Photo<!-- /react-text --></span></div><div class="chat-meta"><span></span><span></span><span class="context-container"></span></div></div></div></div></div></div></div></div></div></div></div><div class="pane pane-two"><div class="intro pane-body"><div class="intro-body"><div class="intro-image" style="opacity: 1; transform: scale(1);"></div><div class="intro-text-container" style="opacity: 1; transform: translateY(0px);"><h1 class="intro-title">Keep your phone connected</h1><div class="intro-text">WhatsApp connects to your phone to sync messages. To reduce data usage, connect your phone to Wi-Fi.</div><div class="intro-secondary"><div class="intro-divider"></div><div class="intro-secondary-text"><span class="icon icon-laptop intro-secondary-icon"></span><!-- react-text: 60 -->WhatsApp for Windows application is now available!<!-- /react-text --><a href="https://www.whatsapp.com/download" class="intro-secondary-link" target="_blank">Get it here</a></div></div></div></div></div></div></div></div></div>
+
+
+
+<script src="./img1_files/progress_137edc83fee86ca2ad88bc0bf023d781.js.download"></script>
+
+
+
+
+</body></html>

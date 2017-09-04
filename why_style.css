@@ -1,0 +1,299 @@
+body, html {
+	margin: 0;
+    height: 100%;
+}
+* {
+	box-sizing: border-box;
+}
+.nav1 {
+	margin-bottom: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+}
+
+.navbar {
+	max-width:100%;
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: white;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li.first {
+	margin: 1.05%  1.5% 0%  1.5%;
+	color:rgb(66,144,265);
+} 
+
+.navbar li a {
+    text-decoration: none;
+    color:rgb(37, 189, 249); 
+    display: block;
+    text-align: center;
+    padding: 18px;
+    font-family: Verdana;
+    margin-right: 20px;
+} 
+
+.navbar li a:hover  {
+	color:white;
+	background-color: rgb(37,189,249);
+}
+
+.navbar li.search input[type=text] {
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    background-image: url('images/search-icon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 32px; 
+	margin: 5px 15px;
+    width: 120px;
+    transition: width 0.7s ease-in-out;
+} 
+.navbar li.search input[type=text]:focus {
+	width: 180px;
+}
+
+
+.navbar li.button11 a{
+	color: white;
+	padding: 12px 30px;
+	font-family: cursive;
+	background-color: rgb(37, 189, 249);
+	border: 1px solid rgb(37, 189, 249) ;
+    border-radius: 30px;
+    margin: 2px 40px;
+}
+
+
+.navbar li.button11 a:hover{
+	color: rgb(37, 189, 249);
+	background-color: white;
+}
+
+.navbar li.icon {
+ 	height: 50px;
+ 	display:none;
+ 	cursor: pointer;
+ }
+
+
+
+li.dropdown {
+    display: inline-block; 
+}
+
+div.dropdown-content {
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	min-width: 160px;
+	background-color: white;
+	z-index: 1;
+}
+div.dropdown-content a{
+	text-decoration: none;
+	padding: 12px 16px;
+	display: block;
+    text-align: left;
+    margin: 0;
+}
+li.dropdown:hover div.dropdown-content {
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+
+.navbar li a {
+	  margin-right: 20px;
+}
+.navbar li.button11 a{
+	    margin: 2px 30px;
+	    padding: 12px;
+}
+.navbar li.search input[type=text] { margin: 5px 12px; }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+.navbar li.search input[type=text] {
+	margin: 5px 10px;
+}
+.navbar li a {
+	  margin-right: 3px;
+}
+.navbar li.button11 a {
+	    margin: 2px 5px;
+	    padding: 12px;
+}
+
+}
+
+
+@media screen and (max-width: 1050px) {
+
+   .nav1 .navbar li:not(:first-child) {
+		display: none;
+	}
+
+	.nav1 .navbar li.dropdown0 {
+    display: block;
+  }
+
+  .nav1 .navbar li.icon  {
+ 	display: block;
+ 	float: right;
+   }
+
+	div.nav1 ul.navbar.responsive {
+	 	position: relative;
+	 	padding: 0;
+	}
+	div.nav1 ul.navbar.responsive li.icon {
+	 	position: absolute;
+	 	top: 0;
+	 	right: 0;
+    }
+	div.nav1 ul.navbar.responsive li{
+	    float: none; 
+		display: block;
+		text-align: center;
+ 	}
+ 	div.nav1 ul.navbar li.button a {margin: 5px 0px;}
+ 	div.nav1 ul.navbar li.search input[type=text] {margin: 5px 0px;}
+	.nav1 .navbar.responsive .dropdown-content {
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+.left {
+	float: left;
+	width: 30%;
+	margin: 40px;
+
+	font-family: cursive;
+}
+.right {
+width: 50%;
+float:left;
+margin: 40px;
+}
+
+
+
+@media screen and (max-width: 1050px) {
+
+
+.left {
+	width: 100%
+}
+.right {
+width: 100%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+div.footer-con {
+	background-color: rgb(36,189,249);
+	display: table;
+	width: 100%;
+	color: white;
+}
+
+div.footer-con div.footer {
+	display: table-cell;
+	padding: 20px;
+}
+.footer li a{
+    text-decoration: none;
+    color: white;
+}
+.footer li a:hover {
+     text-decoration: underline;
+}
+.footer .fa {
+    border-radius: 50%;
+    color: rgb(37, 189, 249);
+    font-size: 16px;
+    margin: 15px;
+    padding: 16px;
+    background-color: white;
+    transform: scale(1,1);
+    transition: transform 0.7s;
+}
+.fa-facebook:hover {
+    transform: scale(1.5,1.5);
+    background: rgb(64, 116, 221);
+    color: white;
+}
+.fa-twitter:hover {
+	transform: scale(1.5,1.5);
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram:hover {
+	transform: scale(1.5,1.5);
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    color: white;
+}
+
+
+@media screen and (max-width: 800px) {
+   div.footer-con div.footer {
+ 	  display: inline-block;
+   }
+}
+
+
+
+#btn1 {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: none;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: lightgreen;
+}
+#btn1:hover {
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+    border: none;
+}

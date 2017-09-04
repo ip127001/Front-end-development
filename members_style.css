@@ -1,0 +1,528 @@
+body, html {
+  margin: 0;
+    height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.nav1 {
+  margin-bottom: 0;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+
+.navbar {
+  max-width:100%;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li.first {
+  margin: 1.05%  1.5% 0%  1.5%;
+  color:rgb(66,144,265);
+} 
+
+.navbar li a {
+    text-decoration: none;
+    color:rgb(37, 189, 249); 
+    display: block;
+    text-align: center;
+    padding: 18px;
+    font-family: Verdana;
+    margin-right: 20px;
+} 
+
+.navbar li a:hover  {
+  color:white;
+  background-color: rgb(37,189,249);
+}
+
+.navbar li.search input[type=text] {
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    background-image: url('images/search-icon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 32px; 
+  margin: 5px 15px;
+    width: 120px;
+    transition: width 0.7s ease-in-out;
+} 
+.navbar li.search input[type=text]:focus {
+  width: 180px;
+}
+
+
+.navbar li.button11 a{
+  color: white;
+  padding: 12px 30px;
+  font-family: cursive;
+  background-color: rgb(37, 189, 249);
+  border: 1px solid rgb(37, 189, 249) ;
+    border-radius: 30px;
+    margin: 2px 40px;
+}
+
+
+.navbar li.button11 a:hover{
+  color: rgb(37, 189, 249);
+  background-color: white;
+}
+
+.navbar li.icon {
+  height: 50px;
+  display:none;
+  cursor: pointer;
+ }
+
+
+
+li.dropdown {
+    display: inline-block; 
+}
+
+div.dropdown-content {
+  display: none;
+  position: absolute;
+  overflow: hidden;
+  min-width: 160px;
+  background-color: white;
+  z-index: 1;
+}
+div.dropdown-content a{
+  text-decoration: none;
+  padding: 12px 16px;
+  display: block;
+    text-align: left;
+    margin: 0;
+}
+li.dropdown:hover div.dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+
+.navbar li a {
+    margin-right: 20px;
+}
+.navbar li.button11 a{
+      margin: 2px 30px;
+      padding: 12px;
+}
+.navbar li.search input[type=text] { margin: 5px 12px; }
+
+}
+
+@media screen and (max-width: 1300px) {
+
+.navbar li.search input[type=text] {
+  margin: 5px 10px;
+}
+.navbar li a {
+    margin-right: 3px;
+}
+.navbar li.button11 a {
+      margin: 2px 5px;
+      padding: 12px;
+}
+
+}
+
+
+@media screen and (max-width: 1050px) {
+
+   .nav1 .navbar li:not(:first-child) {
+    display: none;
+  }
+
+  .nav1 .navbar li.dropdown0 {
+    display: block;
+  }
+
+  .nav1 .navbar li.icon  {
+  display: block;
+  float: right;
+   }
+
+  div.nav1 ul.navbar.responsive {
+    position: relative;
+    padding: 0;
+  }
+  div.nav1 ul.navbar.responsive li.icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    }
+  div.nav1 ul.navbar.responsive li{
+      float: none; 
+    display: block;
+    text-align: center;
+  }
+  div.nav1 ul.navbar li.button a {margin: 5px 0px;}
+  div.nav1 ul.navbar li.search input[type=text] {margin: 5px 0px;}
+  .nav1 .navbar.responsive .dropdown-content {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+.pr,.pr3,.pr7 {
+  float: left;
+}
+
+
+
+
+
+input[type=email] , input[type=password] {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid white;
+  height: 40px;
+  margin: 7px 0px;
+}
+button {
+  background-color: rgb(92, 234, 70);
+  width: 100%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 14px 20px;
+  margin: 7px 0px;
+}
+
+
+.first .closebtn {
+  padding: 14px 20px;
+  background-color: rgb(242, 26, 26);
+}
+.first .closebtn,.first .signupbtn {
+  float: left;
+  width: 50%;
+}
+.container {
+  padding: 16px;
+}
+.card{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+.signup_form {
+  background-color: rgb(239, 231, 218); 
+  width: 70%;
+  margin: 10% auto 20% auto;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+.cross {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  font-size: 20px;
+}
+.cross:hover,.cross:focus {
+  color: rgb(242, 26, 26);
+  cursor: pointer;
+}
+
+
+
+
+
+.login_card {
+  display:none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+  animation: example 1s;
+}
+@keyframes example {
+  from{ transform: scale(0);}
+  to {transform: scale(1);}
+}
+.image_container{
+  position: relative;
+  text-align: center;
+  background-color: rgb(163, 179, 206);
+  padding: 10px;
+}
+.image_container span{
+  position: absolute;
+  cursor: pointer;
+  top:5px;
+  right: 10px;
+  color: black;
+  font-size: 18px;
+  font-weight: 18px;
+
+}
+.image_container span:hover {
+  color: red;
+}
+.image_container img {
+  border: none;
+  border-radius: 50%;
+  height: 30%;
+  width: 20%;
+}
+.container,.image_container {
+  padding: 10px;
+}
+
+
+.login_page {
+  background-color: rgb(239, 231, 218);
+  width: 60%;
+  padding: 50px;
+  margin: 5% auto 15% auto;
+}
+.container .cancelbtn {
+  width: 100%;
+  background-color: red;
+  margin: 10px 50% 0px 0px;
+}
+
+
+
+
+.pr{
+  background-color: rgb(213, 221, 234);
+  width: 23%;
+  margin: 1%;
+  padding: 3%;
+  height: 100%;
+}
+.pr:hover {
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+}
+.pr img {
+  width: 100%;
+  margin:auto;
+  display: block;
+  border-radius: 50%;
+}
+.pr button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+.pr1 {
+  text-align: center;
+}
+.pr2 a {
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+}
+
+
+
+
+.pr3{
+  background-color: rgb(213, 221, 234);
+  width: 23%;
+  margin: 1%;
+  padding: 3%;
+  height: 100%;
+}
+
+.pr3:hover {
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+}
+
+.pr3 img {
+  width: 100%;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+}
+.pr3 button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+.pr4 {
+  text-align: center;
+}
+.pr5 a {
+  text-decoration: none;
+  text-align: center;
+  margin:10px;
+}
+
+
+
+
+
+.pr7{
+  background-color: rgb(213, 221, 234);
+  width: 23%;
+  margin: 1%;
+  padding: 3%;
+  height: 100%;
+}
+.pr7:hover {
+  box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.4);
+}
+.pr7 .fa-user {
+   font-size: 250px;
+   color: rgb(37,189,249);
+   margin: 6% 12% 6% 12%;
+}
+.pr7 button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+}
+.pr8 {
+  text-align: center;
+}
+.pr9 i {
+  text-decoration: none;
+  text-align: center
+  margin: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1400px) {
+  .closebtn,.signupbtn {
+    width: 100%;
+  }
+  .pr,.pr3,.pr7 {
+ width:40%;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+    .closebtn,.signupbtn {
+    width: 100%;
+  }
+  .pr,.pr3,.pr7 {
+ width:90%;
+  }
+  .pr {
+    margin-top: 0px;
+  }
+
+}
+
+.middle4::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.footer-con {
+  background-color: rgb(36,189,249);
+  display: table;
+  width: 100%;
+  color: white;
+  margin-top: 0px;
+}
+
+div.footer-con div.footer {
+  display: table-cell;
+  padding: 16px;
+}
+.footer .fa {
+    border-radius: 50%;
+    color: rgb(37, 189, 249);
+    margin: 20px;
+    padding: 15px;
+    transform: scale(1,1);
+    background-color: white;
+    transition: 0.6s;
+}
+.fa-facebook:hover {
+    transform: scale(1.5,1.5);
+    background: rgb(64, 116, 221);
+    color: white;
+}
+.fa-twitter:hover {
+    transform: scale(1.5,1.5);
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram:hover {
+    transform: scale(1.5,1.5);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    color: white;
+}
+@media screen and (max-width: 800px) {
+   div.footer-con div.footer {
+    display: block;
+   }
+}
+
+
+#btn1 {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgreen;
+}
+#btn1:hover {
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+    border: none;
+}

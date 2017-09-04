@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="contact1_style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body onload="myFunction()"><nav>
+<div class="nav1">
+<ul class="navbar" id="myNavbar">
+
+  <li class="first"><i class="fa fa-hospital-o" style="color:green"></i> M.K. Clinic</li>
+  
+  <li class="dropdown0" >
+      <a href="index.html">
+      <i class="fa fa-home" style="color:lightgrey;"></i>
+      </a>
+  </li>
+
+  <li class="dropdown">
+      <a href="specialities.html" >specialities</a>
+      <div class="dropdown-content">
+  <a href="obesity.html">Obesity Surgery</a>
+  <a href="hair-transplant.html">Hair Transplant</a>
+  <a href="hernia.html">Hernia Clinic</a>
+  <a href="joint-transplant.html">Joint Replacement</a>
+  <a href="gastroenterology.html">Gastroenterology</a>
+  <a href="neuro.html">Neurosciences</a>
+      </div>
+  </li>
+ 
+  <li class="dropdown">
+      <a href="why.html">why M.K.</a>
+  </li>
+
+  <li class="dropdown">
+      <a href="doctor_panel.html">doctor's panel</a>
+  </li>
+
+
+  <li class="button11">
+     <a href="contact1.html">In need</a>
+  </li>
+
+  <li class="button11">
+      <a href="contact.html">contact</a>
+  </li>
+
+  <li class="button11">
+      <a href="members.html">members</a>
+  </li>
+ 
+  <li class="search">
+      <input type="text" name="search" placeholder="search...">
+  </li>
+
+  <li class="icon" onclick="menuOpen()">
+      <a>&#9776</a>
+  </li>
+
+ </ul>
+ </div>
+ </nav> 
+
+
+
+
+
+<section>
+  <div class="middle1">
+  </div>
+</section>
+
+
+
+
+<section>
+  <div class="middle2">
+    <div class="up">M.K. CLINIC for Speciality</div>
+    <div>
+    <div class="one"><img src="images/med5.jpg"><div class="con" style="top:70%;left:27%;">M.R.I.</div></div>
+    <div class="one"><img src="images/med8.jpg"><div class="con">Surgery</div></div>
+    <div class="one"><img src="images/med9.jpg"><div class="con">Care</div></div>
+    <div class="one"><img src="images/med6.jpg"><div class="con">Procedure</div></div>
+    <div class="one"><img src="images/med10.jpg"><div class="con">Specialised Doctors</div></div>
+    <div class="one"><img src="images/hospital.jpg"><div class="con">Hospital</div></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section>
+  <div class="middle" id="demo">
+    <div class="mid">
+      <span onclick="document.getElementById('demo').style.display='none'" class="cross" title="Close">close</span>
+      <h1>EMERGENCY CONTACT<br><br>9829099310</h1>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<footer>
+<div class="footer-con">
+    <div class="footer 1">
+       <h1 style="font-size: 20px;">Sign up our newsletter</h1>
+        <input type="email" name="email" placeholder="example@gmail.com" >
+        <input type="submit" name="submit" value="Go" style="border:none;
+        background-color: red;color: white;height: 30px;border-radius: 5px;width:30px">
+    </div>
+    <div class="footer 2">
+       <h1 style="font-size: 20px;">RESEARCH</h1>
+       <ul> 3
+         <li>Apex hospital research</li>
+         <li>fortis research center</li>
+         <li>MLSA</li>
+       </ul>
+    </div>
+    <div class="footer 3">
+        <h1 style="font-size: 20px;">connect with us on social media</h1>
+        <a href="https://www.facebook.com/NITMz.shaurya/"><i class="fa fa-facebook"></i></a>
+        <i class="fa fa-twitter"></i>
+         <a href="https://www.instagram.com/shaurya_nitmz/?hl=en"><i class="fa fa-instagram"></i></a>
+    </div>
+</div>
+</footer>
+<button id="btn1" onclick="topnav()" title="to top of page">top</button>
+
+<script>
+ function myFunction() {
+document.getElementById("demo").style.display="block";
+ }
+ function menuOpen() {
+  var x= document.getElementById("myNavbar");
+  if(x.className === " navbar ") {
+    x.className += " responsive ";
+  } else {
+    x.className = " navbar ";
+  }
+}
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+     if(document.body.scrollTop > 1000) {
+         document.getElementById("btn1").style.display = "block";
+     } else {
+       document.getElementById("btn1").style.display = "none"; 
+     }
+}
+function topnav() {
+     document.body.scrollTop = 0;
+}
+</script>
+
+
+</body>
+</html>

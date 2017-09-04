@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>MKH</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="members_style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body><nav>
+<div class="nav1">
+<ul class="navbar" id="myNavbar">
+
+  <li class="first"><i class="fa fa-hospital-o" style="color:green"></i> M.K. Clinic</li>
+  
+  <li class="dropdown0" >
+      <a href="index.html">
+      <i class="fa fa-home" style="color:lightgrey;"></i>
+      </a>
+  </li>
+
+  <li class="dropdown">
+      <a href="specialities.html" >specialities</a>
+      <div class="dropdown-content">
+  <a href="obesity.html">Obesity Surgery</a>
+  <a href="hair-transplant.html">Hair Transplant</a>
+  <a href="hernia.html">Hernia Clinic</a>
+  <a href="joint-transplant.html">Joint Replacement</a>
+  <a href="gastroenterology.html">Gastroenterology</a>
+  <a href="neuro.html">Neurosciences</a>
+      </div>
+  </li>
+ 
+  <li class="dropdown">
+      <a href="why.html">why M.K.</a>
+  </li>
+
+  <li class="dropdown">
+      <a href="doctor_panel.html">doctor's panel</a>
+  </li>
+
+
+  <li class="button11">
+     <a href="contact1.html">In need</a>
+  </li>
+
+  <li class="button11">
+      <a href="contact.html">contact</a>
+  </li>
+
+  <li class="button11">
+      <a href="members.html">members</a>
+  </li>
+ 
+  <li class="search">
+      <input type="text" name="search" placeholder="search...">
+  </li>
+
+  <li class="icon" onclick="menuOpen()">
+      <a>&#9776</a>
+  </li>
+
+ </ul>
+ </div>
+ </nav> 
+
+
+
+
+
+<section>
+  <div class="middle4" style="margin:0px;">
+       
+      <div class="third">
+        <div class="pr" id="profile_card">
+             <img src="pp.jpg" alt="doveloper">
+              <div class="pr1">
+                  <h1>Rohit Kumawat</h1>
+                  <p>CEO and Founder of MKS website</p>
+                  <div class="pr2">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+                  <button type="button">Submit</button>
+              </div>
+          </div>
+      </div>
+      
+      <div class="fourth">
+        <div class="pr3">
+             <img src="father.jpg" alt="doctor">
+              <div class="pr4">
+                  <h1>Mukesh Kumawat</h1>
+                  <p>CEO and Founder of MK CLINIC</p>
+                  <div class="pr5">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+                  <button type="button">Submit</button>
+              </div>
+          </div>
+      </div>
+
+    
+      <div class="first">
+        <div class="pr7" id="profile_card">
+             <i class="fa fa-user"></i>
+              <div class="pr8">
+                  <h1>Sign Up here</h1>
+                  <div class="pr9">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+                  <button onclick="document.getElementById('form_id').style.display='block'">Sign up</button>
+              </div>
+          </div>
+
+    <div id="form_id" class="card">
+    
+      <span onclick="document.getElementById('form_id').style.display='none'" class="cross" title="Close">&#9747;</span>
+      
+      <form class="signup_form" action="/action_page.php">
+        <div class="container">
+          <label for="femail">Email</label>
+          <input type="email" name="Email" id="femail" placeholder="example@gmail.com..">
+          
+          <label for="fpass">Password</label>
+          <input type="password" name="Password" id="fpass" placeholder>
+        
+          <label for="fpass">Repeat Password</label>
+          <input type="password" name="RPassword" id="fpass" placeholder>
+        
+          <input type="checkbox" name="Remember">Remember me
+        
+          <p>By creating account you agree to our <a href="#">terms and conditions</a></p>
+        
+          <div class="clearfix">
+            <button type="button" onclick="document.getElementById('form_id').style.display='none'" class="closebtn">Cancel</button>
+            <button onclick="signUp()" type="button" class="signupbtn">Sign up</button>
+          </div>
+        
+        </div>
+      </form>
+    </div>
+  </div>
+
+     <div class="second">
+        <div class="pr7" id="profile_card">
+          <i class="fa fa-user"></i>
+            <div class="pr8">
+              <h1>Login here</h1>
+                <div class="pr9">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
+                <button onclick="document.getElementById('login_form').style.display='block'">Login</button>
+            </div>
+        </div>
+       
+        <div id="login_form" class="login_card">
+          <form action="/action_page.php" class="login_page">
+            <div class="image_container">
+              <span class="crossbtn" onclick="document.getElementById('login_form').style.display='none'" title="close">&#9747;</span>
+              <img src="images/med2.jpg" alt="pic">
+            </div>
+            
+            <div class="container">
+              <label for="femail">Email</label>
+              <input type="email" id="femail" name="Email" placeholder="example@gmail.com">
+
+              <label for="fpassword">Password</label>
+              <input type="password" id="fpassword" name="Password" placeholder="xyz...">
+            
+              <button type="button" class="signinbtn">Login</button>
+            
+              <input type="checkbox">Remember me
+            </div>
+            
+            <div class="container">
+              <button type="button" onclick="document.getElementById('login_form').style.display='none'" class="cancelbtn">Cancel</button>
+              <span>forget<a href="#">password</a></span>
+            </div>
+          
+          </form>
+        </div>
+      
+      </div>
+
+
+ </div>
+</section>
+
+
+
+<footer>
+<div class="footer-con">
+    <div class="footer 1">
+       <h1 style="font-size: 20px;">Sign up our newsletter</h1>
+        <input type="email" name="email" placeholder="example@gmail.com" >
+        <input type="submit" name="submit" value="Go" style="border:none;
+        background-color: red;color: white;height: 30px;border-radius: 5px;width:30px">
+    </div>
+    <div class="footer 2">
+       <h1 style="font-size: 20px;">RESEARCH</h1>
+       <ul> 
+         <li>Apex hospital research</li>
+         <li>fortis research center</li>
+         <li>MLSA</li>
+       </ul>
+    </div>
+    <div class="footer 3">
+        <h1 style="font-size: 20px;">connect with us on social media</h1>
+        <a href="https://www.facebook.com/NITMz.shaurya/"><i class="fa fa-facebook"></i></a>
+        <i class="fa fa-twitter"></i>
+         <a href="https://www.instagram.com/shaurya_nitmz/?hl=en"><i class="fa fa-instagram"></i></a>
+    </div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button id="btn1" onclick="topnav()" title="to top of page">top</button>
+<script >
+function menuOpen() {
+  var x= document.getElementById("myNavbar");
+  if(x.className === " navbar ") {
+    x.className += " responsive ";
+  } else {
+    x.className = " navbar ";
+  }
+}
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+     if(document.body.scrollTop > 1000) {
+         document.getElementById("btn1").style.display = "block";
+     } else {
+       document.getElementById("btn1").style.display = "none"; 
+     }
+}
+function topnav() {
+     document.body.scrollTop = 0;
+}
+
+function myFunction() {
+  var x = setInterval(timer,1000);
+}
+function timer() {
+  var d = new Date();
+  var y = d.toLocaleTimeString();
+  document.getElementById('id01').innerHTML = y;
+}
+
+var x = document.getElementById('form_id');
+window.onclick = function(event) {
+  if(event.target == x) {
+    x.style.display = "none";
+  }
+}
+
+
+</script>
+</body>
+</html>

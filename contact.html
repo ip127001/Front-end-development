@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="contact_style.css">
+<script src="contact_script.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body><nav>
+<div class="nav1">
+<ul class="navbar" id="myNavbar">
+
+  <li class="first"><i class="fa fa-hospital-o" style="color:green"></i> M.K. Clinic</li>
+  
+  <li class="dropdown0" >
+      <a href="index.html">
+      <i class="fa fa-home" style="color:lightgrey;"></i>
+      </a>
+  </li>
+
+  <li class="dropdown">
+      <a href="specialities.html" >specialities</a>
+      <div class="dropdown-content">
+  <a href="obesity.html">Obesity Surgery</a>
+  <a href="hair-transplant.html">Hair Transplant</a>
+  <a href="hernia.html">Hernia Clinic</a>
+  <a href="joint-transplant.html">Joint Replacement</a>
+  <a href="gastroenterology.html">Gastroenterology</a>
+  <a href="neuro.html">Neurosciences</a>
+      </div>
+  </li>
+ 
+  <li class="dropdown">
+      <a href="why.html">why M.K.</a>
+  </li>
+
+  <li class="dropdown">
+      <a href="doctor_panel.html">doctor's panel</a>
+  </li>
+
+
+  <li class="button11">
+     <a href="contact1.html">In need</a>
+  </li>
+
+  <li class="button11">
+      <a href="contact.html">contact</a>
+  </li>
+
+  <li class="button11">
+      <a href="members.html">members</a>
+  </li>
+ 
+  <li class="search">
+      <input type="text" name="search" placeholder="search...">
+  </li>
+
+  <li class="icon" onclick="menuOpen()">
+      <a>&#9776</a>
+  </li>
+
+ </ul>
+ </div>
+ </nav> 
+
+
+
+
+
+
+
+
+<div class="middle5">
+   
+    <div class="first">
+      <p>Contact us</p>
+    </div>
+
+    <div class="second">
+
+    <a href="apex.jpg"><img src="apex.jpg" alt="hospital"></a>
+    
+    <div class="add">Hospital Address:<br>SP-4 & 6, Malviya Industrial Area,Malviya Nagar, Jaipur-302017,Rajasthan, India</div>
+  
+    <table class="table1">
+    <tr>
+      <th>Appointments:</th>
+      <td>+91 141 4101201</td>
+    </tr>
+    <tr>
+      <th>Emergency:</th>
+      <td>+91 141 4101111</td>
+    </tr>
+    <tr>
+      <th>Web:</th>
+      <td>http://www.apexhospital.in</td>
+    </tr>
+    <tr>
+      <th rowspan="2">Email:</th>
+      <td> info@apexhospital.in</td>
+    </tr>
+    <tr>
+      <td>marketing@apexhospital.in</td>
+    </tr>
+    </table>
+  
+    <div class="newadd">Opposite Neerja Modi School,Rajat Path, Mansarovar, Jaipur<br>Appointments : +91 141 4109999</div>
+
+    </div> 
+
+</div>
+
+
+<div class="third">Apex on google maps</div>
+
+<div  class="fourth" id="googleMap"></div>
+
+
+
+<footer>
+<div class="footer-con">
+    <div class="footer 1">
+       <h1 style="font-size: 20px;">Sign up our newsletter</h1>
+        <input type="email" name="email" placeholder="example@gmail.com" >
+        <input type="submit" name="submit" value="Go" style="border:none;
+        background-color: red;color: white;height: 30px;border-radius: 5px;width:30px">
+    </div>
+    <div class="footer 2">
+       <h1 style="font-size: 20px;">RESEARCH</h1>
+       <ul> 
+         <li>Apex hospital research</li>
+         <li>fortis research center</li>
+         <li>MLSA</li>
+       </ul>
+    </div>
+    <div class="footer 3">
+        <h1 style="font-size: 20px;">connect with us on social media</h1>
+        <a href="https://www.facebook.com/NITMz.shaurya/"><i class="fa fa-facebook"></i></a>
+        <i class="fa fa-twitter"></i>
+         <a href="https://www.instagram.com/shaurya_nitmz/?hl=en"><i class="fa fa-instagram"></i></a>
+    </div>
+</div>
+</footer>
+<button id="btn1" onclick="topnav()" title="to top of page">top</button>
+
+
+<script>function myMap() {
+    var find = document.getElementById('googleMap');
+    var myCenter = new google.maps.LatLng(26.849706, 75.814273);
+    var mapProp = {center:myCenter,zoom:10,mapTypeId:google.maps.MapTypeId.ROADMAP};
+    var map = new google.maps.Map(find,mapProp);
+    var marker = new google.maps.Marker({
+      position: myCenter,
+    });
+    marker.setMap(map);
+   google.maps.event.addListener(marker,'click',function(){
+    var pos = map.getZoom();
+    map.setZoom(15);
+    map.setCenter(marker.getPosition());
+    window.setTimeout(function(){map.setZoom(pos)},15000);
+   });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATGk0pNBr7zQKbVthfRtLBJ88N4oCUnQg&callback=myMap"></script>
+
+</body>
+</html>
